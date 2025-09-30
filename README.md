@@ -27,4 +27,11 @@ Run these commands once (replace with your own details):
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 
+## 3. Authenticate with GitHub
+You need to connect your computer to GitHub to push code.
+
+Option A: HTTPS + Personal Access Token
+On GitHub: Settings → Developer settings → Personal access tokens.
+Generate a Fine-grained token with repo access.
+When Git asks for a password after git push, paste the token.
 
