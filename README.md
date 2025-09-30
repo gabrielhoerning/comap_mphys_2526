@@ -1,6 +1,7 @@
 # COMAP MPhys Project 2025/2026 — Git/GitHub Instructions
 
-This repository contains code and documentation for the COMAP MPhys project.  
+**This repository contains code and documentation for the COMAP MPhys project.**
+
 ⚠️ **Do not store data files here** — only code, scripts, and documentation.
 
 ---
