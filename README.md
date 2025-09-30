@@ -39,7 +39,7 @@ To push code, you need to connect your computer to GitHub.
 3. When Git asks for a password after git push, paste the token.
 
 ## 4. Clone the Project (first time only)
-Navigate to the folder where you want to keep your MPhys work, e.g.,
+Navigate to the folder where you want to keep your MPhys work (e.g. `~/phd/mphys`):
 ```bash
 cd ~/phd/mphys/
 git clone https://github.com/gabrielhoerning/comap_mphys_2526.git
@@ -93,8 +93,8 @@ git push
 ```
 
 ## 7. Good Practices
-- Always git pull before starting new work.
+- Always `git pull` before starting new work.
 - Never commit large data files - only code, configs and documentation.
-- If unsure, ask before using git push --force.
+- If unsure, ask before using `git push --force`.
 
-Happy coding! 🚀
+## Happy coding! 🚀
