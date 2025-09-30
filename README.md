@@ -16,7 +16,7 @@ This repository contains code and documentation for the COMAP MPhys project.
   brew install git
   ```
 - **Windows:**
-  Download and install from git-scm.com
+  Download and install from [git-scm.com](git-scm.com)
   Use Git Bash (install with Git).
 
   Check installation:
