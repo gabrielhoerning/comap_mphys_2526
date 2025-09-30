@@ -98,4 +98,6 @@ git push
 - Never commit large data files - only code, configs and documentation.
 - If unsure, ask before using `git push --force`.
 
+---
+
 ## Happy coding! 🚀
