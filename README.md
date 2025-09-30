@@ -81,3 +81,20 @@ f) Push to GitHub
 ```bash
 git push
 ```
+
+## 6. Example Session
+```bash
+cd ~/phd/mphys/comap_mphys_2526
+git pull
+vi analysis.py    # edit file
+git add analysis.py
+git commit -m "Added first draft of analysis script"
+git push
+```
+
+## 7. Good Practices
+- Always git pull before starting new work.
+- Never commit large data files - only code, configs and documentation.
+- If unsure, ask before using git push --force.
+
+Happy coding! 🚀
