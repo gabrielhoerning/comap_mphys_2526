@@ -50,3 +50,34 @@ This creates the folder:
 ~/phd/mphys/comap_mphys_2526/
 ```
 
+## 5. Daily Workflow
+a) Update your local copy
+```bash
+cd ~/phd/mphys/comap_mphys_2526
+git pull
+```
+
+b) Add or edit files
+Work on your scripts, notes, or code.
+
+c) See what changed
+```bash
+git status
+```
+
+d) Stage files
+```bash
+git add my_code.py
+# or all files
+git add .
+```
+
+e) Commit changes
+```bash
+git commit -m "Short description of changes"
+```
+
+f) Push to GitHub
+```bash
+git push
+```
