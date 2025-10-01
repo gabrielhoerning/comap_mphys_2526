@@ -26,7 +26,7 @@
   ```
 
 ## 2. Configure Git
-Run these commands once (replace with your own details):
+Log in to Harrier. Run these commands once (replace with your own details):
   ```bash
   git config --global user.name "Your Name"
   git config --global user.email "your_email@example.com"
@@ -39,13 +39,6 @@ To push code, you need to connect your computer to GitHub.
 2. Generate a Fine-grained token with repo access.
 3. Don't forget that you need to generate a token that gives you read and write power.
 4. Save the token because you won't be able to see it again.
-
-5.1 Log in to Harrier.
-5.2 Set your GitHub info like:
-```bash
-git config --global user.name "gabrielhoerning"
-git config --global user.email "gabrielamancio.hoerning@postgrad.manchester.ac.uk"
-```
 
 ## 4. Clone the Project (first time only)
 Navigate to the folder where you want to keep your MPhys work (e.g. `~/phd/mphys`):
