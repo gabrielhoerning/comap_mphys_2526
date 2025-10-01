@@ -28,7 +28,7 @@
 ## 2. Configure Git
 Log in to Harrier. Run these commands once (replace with your own details):
   ```bash
-  git config --global user.name "Your Name"
+  git config --global user.name "username"
   git config --global user.email "your_email@example.com"
   ```
 
