@@ -52,16 +52,17 @@ This creates the folder:
 ~/phd/mphys/comap_mphys_2526/
 ```
 
-## 5. Daily Workflow
+## 5 Daily Workflow
 0) When you try to pull or push for the first time after a modification, you will need to use your personal token like this:
 ```bash
 git pull https://gabrielhoerning:<TOKEN>@github.com/gabrielhoerning/comap_mphys_2526.git
 ```
-And after that, you can use this command so your local Git should, in principl,e save your credentials so you don't need to use your token every time (but who knows) 
+And after that, you can use this command so your local Git should, in principle, save your credentials so you don't need to use your token every time (but who knows) 
 ```bash
 git config --global credential.helper store
 ```
 
+## 6. Daily Workflow
 a) Update your local copy
 ```bash
 cd ~/phd/mphys/comap_mphys_2526
@@ -93,7 +94,7 @@ f) Push to GitHub
 git push
 ```
 
-## 6. Example Session
+## 7. Example Session
 ```bash
 cd ~/phd/mphys/comap_mphys_2526
 git pull
@@ -103,7 +104,7 @@ git commit -m "Added first draft of analysis script"
 git push
 ```
 
-## 7. Good Practices
+## 8. Good Practices
 - Always `git pull` before starting new work.
 - Never commit large data files - only code, configs and documentation.
 - If unsure, ask before using `git push --force`.
