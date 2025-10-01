@@ -7,7 +7,7 @@
 ---
 
 ## 1. Install Git
-- **Linux (Ubuntu/Debian):**
+- **Linux and WSL (Ubuntu/Debian):**
   ```bash
   sudo apt update
   sudo apt install git
@@ -16,7 +16,7 @@
   ```bash
   brew install git
   ```
-- **Windows:**
+- **Windows (not WSL):**
   Download and install from [git-scm.com](git-scm.com)
   Use Git Bash (install with Git).
 
